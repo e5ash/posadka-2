@@ -1,6 +1,6 @@
 @media screen and (max-height: 960px) {
   body {
-    padding-bottom: 40px; }
+    padding-bottom: 0; }
     body .name {
       margin-top: 50%; } }
 
@@ -8,17 +8,19 @@
   body {
     background-position-y: -70px; }
     body .name {
-      margin-top: 50%; } }
+      margin-top: 40%; } }
 
 @media screen and (max-height: 850px) {
   body .name {
-    margin-top: 50%; } }
+    margin-top: 30%; } }
 
 @media screen and (max-height: 780px) {
-  body .name {
-    margin-top: 45%; }
-  body .desc {
-    opacity: 1; } }
+  body {
+    background-position-y: -110px; }
+    body .name {
+      margin-top: 20%; }
+    body .desc {
+      opacity: 1; } }
 
 @media screen and (max-height: 710px) {
   body {
